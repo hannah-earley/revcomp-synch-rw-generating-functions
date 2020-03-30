@@ -1,0 +1,21 @@
+{
+    "folders":
+    [
+        {
+            "path": "."
+        }
+    ],
+    "build_systems":
+    [
+        {
+            "name": "Makey Makey",
+            "cmd": ["make", "quick-verbose"],
+            "working_dir": "$project_path"
+        },
+        {
+            "name": "Makey Fully",
+            "cmd": ["make", "verbose"],
+            "working_dir": "$project_path"
+        }
+    ]
+}
